@@ -11,6 +11,11 @@ git = "https://github.com/gfx-rs/wgpu"
 rev = "20fda69"
 replace-with = "vendored-sources"
 
+[source."git+https://github.com/jackpot51/iced_video_player.git?branch=cosmic"]
+git = "https://github.com/jackpot51/iced_video_player.git"
+branch = "cosmic"
+replace-with = "vendored-sources"
+
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
 git = "https://github.com/jackpot51/rust-atomicwrites"
 replace-with = "vendored-sources"
@@ -28,9 +33,9 @@ replace-with = "vendored-sources"
 git = "https://github.com/pop-os/libcosmic.git"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/smithay-clipboard?tag=pop-dnd-4"]
+[source."git+https://github.com/pop-os/smithay-clipboard?tag=pop-dnd-5"]
 git = "https://github.com/pop-os/smithay-clipboard"
-tag = "pop-dnd-4"
+tag = "pop-dnd-5"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/softbuffer?tag=cosmic-4.0"]
@@ -38,19 +43,14 @@ git = "https://github.com/pop-os/softbuffer"
 tag = "cosmic-4.0"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/window_clipboard.git?tag=pop-dnd-6"]
+[source."git+https://github.com/pop-os/window_clipboard.git?tag=pop-dnd-8"]
 git = "https://github.com/pop-os/window_clipboard.git"
-tag = "pop-dnd-6"
+tag = "pop-dnd-8"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/winit.git?branch=winit-0.29"]
 git = "https://github.com/pop-os/winit.git"
 branch = "winit-0.29"
-replace-with = "vendored-sources"
-
-[source."git+https://github.com/smithay/client-toolkit?rev=3bed072"]
-git = "https://github.com/smithay/client-toolkit"
-rev = "3bed072"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/wash2/accesskit.git?branch=winit-0.29"]
