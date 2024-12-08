@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 %define         appname com.system76.CosmicPlayer
 Name:           cosmic-player
-Version:        0.1.0+git20241014
+Version:        0.1.0+git20241207
 Release:        0
 Summary:        COSMIC media player
 Group:          Video
