@@ -11,9 +11,9 @@ git = "https://github.com/gfx-rs/wgpu"
 rev = "20fda69"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/jackpot51/iced_video_player.git?branch=cosmic"]
+[source."git+https://github.com/jackpot51/iced_video_player.git?branch=prev-cosmic"]
 git = "https://github.com/jackpot51/iced_video_player.git"
-branch = "cosmic"
+branch = "prev-cosmic"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
@@ -29,8 +29,9 @@ git = "https://github.com/pop-os/glyphon.git"
 tag = "v0.5.0"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/libcosmic.git"]
+[source."git+https://github.com/pop-os/libcosmic.git?branch=prev-master"]
 git = "https://github.com/pop-os/libcosmic.git"
+branch = "prev-master"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/smithay-clipboard?tag=pop-dnd-5"]
