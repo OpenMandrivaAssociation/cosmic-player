@@ -1,14 +1,14 @@
 %undefine _debugsource_packages
 %define         appname com.system76.CosmicPlayer
 Name:           cosmic-player
-Version:        0.1.0+git20241207
-Release:        0
+Version:        1.0.0
+Release:        0.alpha5.0
 Summary:        COSMIC media player
 Group:          Video
 License:        GPL-3.0-only
 URL:            https://github.com/pop-os/cosmic-player
-# Source0:        https://github.com/pop-os/cosmic-screenshot/archive/epoch-%{version}-alpha.2/%{name}-epoch-%{version}-alpha.2.tar.gz
-Source:         cosmic-player-master.zip
+Source0:        https://github.com/pop-os/cosmic-screenshot/archive/epoch-%{version}-alpha.5/%{name}-epoch-%{version}-alpha.5.tar.gz
+#Source:         cosmic-player-master.zip
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 
@@ -31,7 +31,7 @@ BuildRequires:  pkgconfig(gstreamer-video-1.0)
 %{summary}.
 
 %prep
-%autosetup -n cosmic-player-master -a1 -p1
+%autosetup -n %{name}-epoch-%{version}-alpha.5 -a1 -p1
 mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
