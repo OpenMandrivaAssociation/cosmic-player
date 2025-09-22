@@ -50,3 +50,4 @@ just rootdir=%{buildroot} prefix=%{_prefix} install
 %{_datadir}/icons/hicolor/???x???/apps/%{appname}.svg
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/metainfo/%{appname}.metainfo.xml
+%{_datadir}/thumbnailers/com.system76.CosmicPlayer.thumbnailer
