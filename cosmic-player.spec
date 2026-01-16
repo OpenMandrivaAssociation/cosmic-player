@@ -1,8 +1,8 @@
 %undefine _debugsource_packages
 %define         appname com.system76.CosmicPlayer
 Name:           cosmic-player
-Version:        1.0.0
-%define beta beta.7
+Version:        1.0.2
+#define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        COSMIC media player
 Group:          Video
@@ -13,6 +13,7 @@ Source0:        https://github.com/pop-os/cosmic-player/archive/epoch-%{version}
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 
+BuildRequires:  make
 BuildRequires:  rust-packaging
 BuildRequires:  clang-devel
 BuildRequires:  just
