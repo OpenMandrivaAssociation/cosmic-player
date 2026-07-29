@@ -1,42 +1,35 @@
 [source.crates-io]
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/DioxusLabs/taffy?rev=7781c70"]
-git = "https://github.com/DioxusLabs/taffy"
-rev = "7781c70"
-replace-with = "vendored-sources"
-
-[source."git+https://github.com/gfx-rs/wgpu?rev=20fda69"]
-git = "https://github.com/gfx-rs/wgpu"
-rev = "20fda69"
-replace-with = "vendored-sources"
-
-[source."git+https://github.com/jackpot51/iced_video_player.git?branch=prev-cosmic"]
-git = "https://github.com/jackpot51/iced_video_player.git"
-branch = "prev-cosmic"
+[source."git+https://github.com/iced-rs/cryoglyph.git?rev=e429a025df36ab8145708acb309080ae3deec17a"]
+git = "https://github.com/iced-rs/cryoglyph.git"
+rev = "e429a025df36ab8145708acb309080ae3deec17a"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
 git = "https://github.com/jackpot51/rust-atomicwrites"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/cosmic-text.git"]
-git = "https://github.com/pop-os/cosmic-text.git"
+[source."git+https://github.com/pop-os/cosmic-protocols?rev=32283d7"]
+git = "https://github.com/pop-os/cosmic-protocols"
+rev = "32283d7"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/glyphon.git?tag=v0.5.0"]
-git = "https://github.com/pop-os/glyphon.git"
-tag = "v0.5.0"
+[source."git+https://github.com/pop-os/dbus-settings-bindings"]
+git = "https://github.com/pop-os/dbus-settings-bindings"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/libcosmic.git?branch=prev-master"]
+[source."git+https://github.com/pop-os/freedesktop-icons"]
+git = "https://github.com/pop-os/freedesktop-icons"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/libcosmic.git"]
 git = "https://github.com/pop-os/libcosmic.git"
-branch = "prev-master"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/smithay-clipboard?tag=pop-dnd-5"]
+[source."git+https://github.com/pop-os/smithay-clipboard?tag=sctk-0.20"]
 git = "https://github.com/pop-os/smithay-clipboard"
-tag = "pop-dnd-5"
+tag = "sctk-0.20"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/softbuffer?tag=cosmic-4.0"]
@@ -44,19 +37,24 @@ git = "https://github.com/pop-os/softbuffer"
 tag = "cosmic-4.0"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/window_clipboard.git?tag=pop-dnd-8"]
+[source."git+https://github.com/pop-os/window_clipboard.git?tag=sctk-0.20"]
 git = "https://github.com/pop-os/window_clipboard.git"
-tag = "pop-dnd-8"
+tag = "sctk-0.20"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/winit.git?branch=winit-0.29"]
+[source."git+https://github.com/pop-os/winit.git?tag=cosmic-0.14"]
 git = "https://github.com/pop-os/winit.git"
-branch = "winit-0.29"
+tag = "cosmic-0.14"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/wash2/accesskit.git?branch=winit-0.29"]
-git = "https://github.com/wash2/accesskit.git"
-branch = "winit-0.29"
+[source."git+https://github.com/wash2/accesskit?tag=cosmic-0.14"]
+git = "https://github.com/wash2/accesskit"
+tag = "cosmic-0.14"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/wash2/iced_video_player.git?branch=iced-rebase"]
+git = "https://github.com/wash2/iced_video_player.git"
+branch = "iced-rebase"
 replace-with = "vendored-sources"
 
 [source.vendored-sources]
